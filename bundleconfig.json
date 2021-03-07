@@ -11,14 +11,212 @@
       "sourceMap": false
     },
     {
-      "outputFileName": "wwwroot/bundles/ros.js",
+      "outputFileName": "wwwroot/js/roslib.min.js",
       "inputFiles": [
-        "node_modules/rclnodejs/lib/node.js"
+        "node_modules/roslib/build/roslib.min.js"
       ],
       "minify": {
         "enabled": false,
         "commentMode": "all"
       },
       "sourceMap": false
-    },
+    }
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/index.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/index.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/node.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/node.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/clock.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/clock.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/clock_type.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/clock_type.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/context.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/context.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/duration.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/duration.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/interface_loader.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/interface_loader.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/logging.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/logging.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/node_options.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/node_options.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/parameter.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/parameter.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/qos.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/qos.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/validator.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/validator.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/time.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/time.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/action/client.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/action/client.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/action/server.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/action/server.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/action/client_goal_handle.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/action/client_goal_handle.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/action/response.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/action/response.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // },
+    // {
+    //   "outputFileName": "wwwroot/bundles/ros/lib/action/server_goal_handle.js",
+    //   "inputFiles": [
+    //     "node_modules/rclnodejs/lib/action/server_goal_handle.js"
+    //   ],
+    //   "minify": {
+    //     "enabled": false,
+    //     "commentMode": "all"
+    //   },
+    //   "sourceMap": false
+    // }
   ]

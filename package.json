@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rclnodejs": "^0.18.1"
+    "rclnodejs": "^0.18.1",
+    "roslib": "^1.1.0"
   }
 }

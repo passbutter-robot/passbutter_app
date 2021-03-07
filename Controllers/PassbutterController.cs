@@ -1,29 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using passbutter_app.Models;
 
 namespace passbutter_app.Controllers
 {
-    public class HomeController : Controller
+    public class PassbutterController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<PassbutterController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public PassbutterController(ILogger<PassbutterController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

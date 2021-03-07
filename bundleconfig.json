@@ -1,0 +1,24 @@
+[
+    {
+      "outputFileName": "wwwroot/bundles/passbutter.js",
+      "inputFiles": [
+        "scripts/passbutter.js"
+      ],
+      "minify": {
+        "enabled": true,
+        "commentMode": "all"
+      },
+      "sourceMap": false
+    },
+    {
+      "outputFileName": "wwwroot/bundles/ros.js",
+      "inputFiles": [
+        "node_modules/rclnodejs/lib/node.js"
+      ],
+      "minify": {
+        "enabled": false,
+        "commentMode": "all"
+      },
+      "sourceMap": false
+    },
+  ]

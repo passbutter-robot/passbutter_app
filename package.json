@@ -2,14 +2,21 @@
   "name": "passbutter_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsify": "browserify -p tsify scripts/passbutter.ts > scripts/passbutter.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rclnodejs": "^0.18.1",
+    "@types/roslib": "^1.1.1",
+    "bootstrap": "4.5.3",
+    "devextreme": "^20.2.4",
+    "devextreme-aspnet-data": "^2.7.2",
     "roslib": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "tsify": "^2.0.2",
+    "typescript": "^2.0.3"
   }
 }

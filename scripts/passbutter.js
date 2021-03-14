@@ -1,8 +1,11 @@
-function sayHello() {
-    const compiler = document.getElementById("compiler")
-        .value;
-    const framework = document.getElementById("framework")
-        .value;
-    return `Hello from ${compiler} and ${framework}!`;
-}
+import { Ros, Topic } from 'roslib';
+let ros = new Ros({});
+let example = new Topic({
+    ros: ros,
+    name: '/wheel_speed',
+    messageType: 'std_msgs/Float32'
+});
+example.subscribe(function (message) {
+    console.log(`Receive message: ${message}`);
+});
 //# sourceMappingURL=passbutter.js.map
